@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        /* --基本选择器-- */
+        /* 1、标签选择器 */
+        div {
+            width: 100px;
+            height: 100px;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        /* 2.类选择器 */
+        /* 结构类class调用 */
+        .font {
+            font-size: 20px;
+        }
+
+        .box {
+            width: 150px;
+            height: 100px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        /* 3.id选择器 样式#定义，结构id调用，只能调用一次 */
+        #pink {
+            background-color: lightpink;
+        }
+
+        /* 4.通配符选择器 */
+        * {
+            font-size: 10px;
+            font-family: 'Microsoft Yahe';
+        }
+
+        h2 {
+            font-style: italic;
+            font-weight: 700;
+            font-size: 16px;
+            font-family: 'Microsoft Yahe';
+        }
+
+        h3 {
+            /* 顺序：文字样式 文字粗细 文字大小 文字字体 */
+            font: italic 700 20px 'Microsoft yahei';
+            color: chocolate;
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+    <div class="red font ">周深</div>
+    <div class="green box">周深</div>
+    <div class="red" id="pink">周深</div>
+    <h3>下划线</h3>
+    <h2>
+        hhu
+    </h2>
+</body>
+
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 400 16px 'Microsoft yahei';
+        }
+
+        .center {
+            text-align: center;
+
+        }
+
+        p {
+            text-indent: 2em;
+        }
+
+        div {
+            width: 100;
+            height: 100px;
+        }
+
+        .gray {
+            color: #888888;
+            font-size: 12px;
+
+        }
+
+        .btn {
+            font-weight: 400;
+            color: blue;
+
+        }
+
+        a {
+            text-decoration: none;
+            /* 转换为块级元素 */
+            display: block;
+            height: 100px;
+            width: 100px;
+        }
+
+        /* 一、链接伪选择器 按照LVHA  */
+        /* 1未访问过的链接 */
+        a:link {
+            color: #333;
+
+        }
+
+        /* 2选择访问过的链接 */
+        a:visited {
+            color: orange;
+
+        }
+
+        /* 3鼠标经过链接 */
+        a:hover {
+            color: aqua;
+        }
+
+        /* 4鼠标按住未松开 */
+        a:active {
+            color: red;
+        }
+
+        /* 二、focus伪类选择器 */
+        /* 光标所在表单元素input */
+        input:focus {
+            background-color: pink;
+        }
+
+        .inline {
+            display: inline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <input type="text" />
+
+    </form>
+    <h1 class="center">广东东莞新增50例新冠肺炎确诊病例、103例本土无症状感染者，均在大朗镇播报文章</h1>
+    <div class="center gray">
+        <a href="https://author.baidu.com/home?from=bjh_article&app_id=1561825967470087">红星新闻官方</a>
+        发布时间: 2022-03-07 09:32
+        成都商报红星新闻官方帐号<button>关注</button>
+    </div>
+    <hr />
+    <div>块级元素</div>
+    <div class="inline">块级元素</div>
+    <p>记者从东莞市疾病预防控制中心获悉 ，3月6日0—24时，广东东莞市新增50例本土确诊病例、103例本土无症状感染者，均在大朗镇，已被隔离治疗。以上人员均在集中隔离时发现，涉及场所已进行环境核酸采样和终末消毒。
+    </p>
+    <p>近期东莞市多轮核酸筛查均未检出阳性个案，社区传播风险和外溢风险较低，但疫情防控形势依然复杂，请广大市民继续自觉遵守疫情防控相关规定，关注官方发布的权威信息，不信谣、不传谣，牢固树立“每个人都是自己的第一健康责任人”意识。如出现发热、咳嗽、腹泻、乏力等症状，做好个人防护，避免乘坐公共交通工具，及时到就近的发热门诊就诊。
+    </p>
+    <p class="center"><img
+            src="https://pics5.baidu.com/feed/314e251f95cad1c8af56d48fe8569a00c83d511e.jpeg?token=b52886aa9ae3c50dc816f2375b512808" />
+    </p>
+
+    （央视新闻）<h4>2022年3月7日</h4>
+
+    <h4>广东省新冠肺炎疫情情况</h4>
+
+    <p>3月6日0-24时，全省新增本土确诊病例69例，深圳报告19例，东莞报告50例。新增本土无症状感染者104例，惠州报告1例，东莞报告103例。
+        全省新增境外输入确诊病例51例（其中4例为无症状感染者转确诊），深圳报告34例，珠海报告13例，东莞报告1例，中山报告2例，汕尾报告1例，均来自中国香港。新增境外输入无症状感染者43例，广州报告8例，5例来自尼日利亚，2例来自老挝，1例来自埃塞俄比亚；深圳报告3例，珠海报告26例，惠州报告2例，东莞报告1例，中山报告1例，江门报告2例，均来自中国香港。新增出院21例，目前在院1378例。
+    </p>
+
+    <p>截至3月6日24时，全省累计报告新冠肺炎阳性感染者9546例（境外输入6798例），其中确诊病例5370例（境外输入3258例），无症状感染者4176例（境外输入3540例）。</p>
+
+    来源：健康广东
+</body>
+
+</html>
